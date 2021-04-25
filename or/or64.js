@@ -1,4 +1,4 @@
-function xorx64(con1, con2, con3, con4){
+function or64(con1, con2, con3, con4){
 	try{
 		if (con1){return true;}
 		else if(con2){return true;}
@@ -7,4 +7,4 @@ function xorx64(con1, con2, con3, con4){
 		else{return false;};
 	} catch(Exception){return false};
 };
-module.exports.xorx64 = xorx64
+module.exports.or64 = or64
